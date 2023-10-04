@@ -2430,7 +2430,7 @@
      display: inline-block;
      padding-bottom: 20px;
      font-size: 20px;
-     font-style: italic;
+     font-style: normal;
      font-weight: 200;
      color: #a2a2a2;
 }
@@ -4102,11 +4102,11 @@
  .tour-mig-lc-img {
 }
  .tour-mig-like-com:hover img {
-     -webkit-transition: all 0.5s ease;
+     /* -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
      transition: all 0.5s ease;
-     opacity: 0.5;
+     opacity: 0.5; */
 }
  .tour-mig-lc-img img {
      width: 100%;
@@ -4121,6 +4121,15 @@
      left: 0px;
      width: 100%;
      border-radius: 5px;
+}
+.services-caption h2{
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    color: #a2a2a2;
+    text-align: center;
 }
  .tour-mig-lc-con {
      position: absolute;
@@ -5696,7 +5705,7 @@
      display: inline-block;
 }
  .main-menu ul li a{
-     color: #E94426;
+     color: #8DC73F;
      opacity: 0.5;
      padding: 20px 25px;
      line-height: 58px;
@@ -5705,14 +5714,14 @@
     /* text-transform: uppercase;
      */
      position:relative;
-     font-family: 'Quicksand', sans-serif;
+     /* font-family: 'Quicksand', sans-serif; */
      text-decoration: none;
 }
 .active-menu {
     opacity: 1 !important;
 }
  .main-menu ul li a:hover{
-     color: #E94426;
+     color: #8DC73F;
      opacity: 1;
 }
  .main-menu ul li a:after{
