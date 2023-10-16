@@ -664,9 +664,12 @@
  .to-ho-hotel-con {
      position: relative;
      overflow: hidden;
-     border: 1px solid #dfdfdf;
-     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.09);
+     /* border: 1px solid #dfdfdf;
+     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.09); */
      margin-bottom: 30px;
+}
+.to-ho-hotel-con p {
+    color: #888;
 }
  .to-ho-hotel-con-1 {
      position: relative;
@@ -4122,14 +4125,21 @@
      width: 100%;
      border-radius: 5px;
 }
+.services-caption {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .services-caption h2{
     display: inline-block;
     padding-bottom: 20px;
     font-size: 20px;
     font-style: normal;
-    font-weight: 200;
-    color: #a2a2a2;
+    font-weight: 600;
+    color: #8dc73f;
     text-align: center;
+    text-transform: uppercase;
+    opacity: 0.8;
 }
  .tour-mig-lc-con {
      position: absolute;
