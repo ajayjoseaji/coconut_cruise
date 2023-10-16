@@ -8325,3 +8325,135 @@ font-weight: bold;
     height: auto;
     border: none;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #090909;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 30px;
+  }
+  
+  #footer h3 {
+    /* font-size: 25px; */
+    /* font-weight: 500; */
+    color: #fff;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  #footer h3::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #8dc73f;
+  }
+  
+  #footer p {
+    font-size: 15;
+    /* font-style: italic; */
+    padding: 0;
+    margin: 0 0 40px 0;
+    color: #999;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgb(53, 52, 52);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #8dc73f;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .quick-links ul li {
+    list-style: none;
+    margin-left: -33px;
+    padding: 4px;
+  }
+  
+  #footer .quick-links ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  #footer .quick-links ul li a:hover {
+    color: #8dc73f;
+  }
+  
+  #footer .contact-info li {
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: -32px;
+  }
+  
+  #footer .contact-info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  #footer .contact-info li span {
+    color: #999;
+  }
+  
+  #footer .contact-info li a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  #footer .contact-info li a:hover {
+    color: #8dc73f;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+  }
+  
+  #footer .copyright a {
+    color: white;
+  }
+  
+  #footer .copyright a:hover {
+    color: #8dc73f;
+    text-decoration: none;
+  }
+  
+  #footer .copyright p {
+    margin: 0px;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
