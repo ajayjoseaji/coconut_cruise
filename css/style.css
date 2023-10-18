@@ -216,7 +216,7 @@
 }
  .spe-title h2 span {
      color: #8dc73f;
-     font-size: 44px;
+     font-size: 36px;
      font-weight: 600;
      /* font-family: 'Quicksand', sans-serif; */
 }
@@ -677,14 +677,14 @@
  .to-ho-hotel-con-1:before {
      content: '';
      position: absolute;
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 14%, rgba(0, 0, 0, 0.08) 35%);
+     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 14%, rgba(0, 0, 0, 0.08) 35%); */
      top: 0px;
      bottom: 0px;
      left: 0px;
      width: 100%;
 }
  .to-ho-hotel-con-1 img {
-     width: 125%;
+     width: 100%;
 }
  .to-ho-hotel-con-23 {
      position: relative;
