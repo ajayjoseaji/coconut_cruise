@@ -7,7 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #727070;
-  background-color: #111827 !important;
+  background-color: #ffffff !important;
 }
 a {
   text-decoration: none;
@@ -6639,7 +6639,7 @@ a.ui-button:active,
   top: 0px;
   width: 100%;
   height: 55px;
-  background: #111827;
+  background: #fff;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
   z-index: 999;
   display: none;
@@ -6754,7 +6754,7 @@ a.ui-button:active,
   top: 0px;
   width: 100%;
   height: 90px;
-  background: #111827;
+  background: #fff;
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
   z-index: 999;
   padding: 1px;
@@ -8194,7 +8194,7 @@ textarea {
   font-family: "Poppins";
   margin-top: 100px;
   color: #fff;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   /* text-shadow: 3px 3px black; */
   font-weight: 700;
   margin: 0;
@@ -8311,10 +8311,10 @@ textarea {
     padding: 10px 20px;
     font-size: 20px;
     font-family: "Poppins";
-    background-color: #8dc73f;
+    background-color: #fff;
     opacity: 0.8;
     margin-right: 14px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     margin-bottom: 100px;
     border: 2px solid #8dc73f;
     margin-top: 12px;
@@ -8325,6 +8325,7 @@ textarea {
     font-family: "Poppins";
     font-weight: bold;
     margin-top: 100px;
+    line-height: 44px;
   }
   .banner-text p {
     font-size: 18px;
@@ -8342,10 +8343,10 @@ textarea {
   }
 
   .banner-a {
-    color: white;
+    color: black;
     font-family: "Poppins";
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
@@ -8386,6 +8387,7 @@ textarea {
     font-family: "Poppins";
     font-weight: bold;
     margin-top: 100px;
+    line-height: 44px;
   }
   .banner-text p {
     font-size: 15px;
